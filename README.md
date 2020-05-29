@@ -9,7 +9,7 @@ In this case, we simulate a two dimensional covariate space x=[mu,sigma] each in
     
 
 ## Training and Evaluation
-The implementation was based on Python 3 and Tensorflow 2.0 in folder Het_Gaussian_CN. The complete example of using g(.,x) and f(.,x) to approach conditional cdf and its inverse is included in Collaborating-Network-Example/Het_Gaussian_CN.ipynb. After training, the conditional quantile and distribution for each individual is estimated with g(.,x), which was shown to have better statistical properties in paper.
+The implementation was based on Python 3 and Tensorflow 2.0 in folder Het_Gaussian_CN. The complete example of using g(.,x) and f(.,x) to approach conditional cdf and its inverse is included inHet_Gaussian_CN/Het_Gaussian_CN.ipynb. After training, the conditional quantile and distribution for each individual is estimated with g(.,x), which was shown to have better statistical properties in paper.
 
 We evaluated the trained CN on calibration: a quantity indicating the discrepancy between nominal level and empirical level of coverage. CN has a close match to ground truth.
 
