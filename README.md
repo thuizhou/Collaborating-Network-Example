@@ -20,3 +20,6 @@ Or we could sketch CDF for a few random samples by their mean and standard devia
 
 ![cdf](Het_Gaussian_CN/cdf.png)
 
+\begin{equation}
+a+1
+\end{equation}
