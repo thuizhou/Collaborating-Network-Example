@@ -3,7 +3,7 @@
 This repository contains the code associated with one synthetic example of paper by Zhou, Li, Yuan and Carlson. The manuscript is now available on Arxiv (https://arxiv.org/abs/2002.05212). This example illustrates how to use collaborating networks(CN) to estimate the conditional distribution Y|X=x of continuous outcome.
 
 ## Data Generation
-In this case, we simulate a two dimensional covariate space x=[mu,sigma] each individual is distributed as Y|x~ N(mu,sigma^2). The data generation procedure is described in data_generation, and can be reproduced by
+In this case, we simulate a two dimensional covariate space $x=[\mu,\sigma]$ each individual is distributed as Y|x~ N(mu,sigma^2). The data generation procedure is described in data_generation, and can be reproduced by
     
     $python Heteroscedastic_Gsussian_Generation.py
     
