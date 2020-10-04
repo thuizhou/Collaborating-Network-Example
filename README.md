@@ -19,7 +19,3 @@ We evaluated the trained CN on calibration: a quantity indicating the discrepanc
 Or we could sketch CDF for a few random samples by their mean and standard deviation, and compare the CN estimated to the ground truth. Again, CN has a good recover of conditional CDF.
 
 ![cdf](Het_Gaussian_CN/cdf.png)
-
-\begin{equation}
-a+1
-\end{equation}
